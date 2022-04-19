@@ -1,38 +1,44 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap');
+*{
+  background-color: rgb(0, 0, 0);
+  color:rgb(255, 255, 255);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.body{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.app{
+  height: 600px;
+  width: 100vh;;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.search-bar{
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+  color:rgb(255, 251, 251) !important;
+  font-family: 'Rubik Puddles', cursive;
+}
+.map{
+height: 100%;
+width:100%;
+}
+.controls
+{
+display: flex;
+justify-content:space-around;
+}
+.btn
+{
+  size: 30px;
+  background-color: aqua;
+  color:red;
+  border-radius: 2px;
+}
+.marker{
+  background-size: cover;
+  width: 22px;
+  height: 22px;
+  background-color: yellow;
+  border-radius: 11px;
+  border: solid 3px darkslategray;
 }
